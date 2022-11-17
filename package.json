@@ -4,12 +4,13 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
-    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && Exit 1",
+    "start": "node index.js",
     "dev": "nodemon server.js"
   },
   "name": "first-app",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "devDependencies": {},
   "author": "",
   "license": "ISC",
